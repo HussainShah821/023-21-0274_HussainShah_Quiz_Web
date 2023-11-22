@@ -1,5 +1,5 @@
 import './App.css';
-import Navbar from "./components/Navbar";
+import MyNavbar from "./components/Navbar";
 import { HeroSection } from './components/HeroSection';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -8,7 +8,8 @@ import SecurityUpdate from "./components/SecurityUpdate";
 function App() {
   return (
     <div >
-        <Navbar />
+
+        <MyNavbar />
         <Header />
         <HeroSection />
         <Statistics />
